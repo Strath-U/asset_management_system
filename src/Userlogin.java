@@ -21,6 +21,9 @@ public class Userlogin {
 
         scanner.close();
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7e26c47438836f4cc3109bc2103a6db020b6f076
 }
 

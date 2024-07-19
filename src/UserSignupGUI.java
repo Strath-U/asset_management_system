@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.sql.Connection;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -22,10 +23,21 @@ public class UserSignupGUI{
         JFrame frame = new JFrame("Login");
         JPanel panel = new JPanel();
         frame.setSize(300, 200);
+=======
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class UserSignupGUI {
+    public static void main(String[] args) {
+        JFrame frame = new JFrame();
+        JPanel panel = new JPanel();
+        frame.setSize(100, 100);
+>>>>>>> 7e26c47438836f4cc3109bc2103a6db020b6f076
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         frame.add(panel);
 
+<<<<<<< HEAD
         JLabel userLabel = new JLabel("Username:");
         userLabel.setBounds(10, 20, 80, 25);
         panel.add(userLabel);
@@ -137,3 +149,7 @@ public class UserSignupGUI{
 
 
 
+=======
+    }
+}
+>>>>>>> 7e26c47438836f4cc3109bc2103a6db020b6f076
